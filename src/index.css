@@ -1,0 +1,567 @@
+
+
+
+
+.header{
+   background-color:rgb(237, 239, 246);
+   width: 100%;
+   height: 18%;
+   position: absolute;
+ left: 0%;
+top: 0%;
+background-color : transparent;
+
+}
+
+#h1{
+   position: absolute;
+   backdrop-filter: blur(100px);
+   margin-top: 25%;
+   margin-left: 30%;
+   padding: 2px;
+   background-color:rgba(255,255,255,0.5);
+   box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+   border: 1px solid rgb(255, 255, 255);
+   padding: 22px;
+   border-radius: 60px;
+   padding-left: 80px;
+   padding-right: 80px;
+   font-family:sans-serif;
+   animation: flashing-style 2s linear ;
+  }
+  
+  @keyframes flashing-style {
+     100% {
+      opacity: 0;
+     }
+  }
+#peek{
+  margin-left: 30%;
+  position: absolute;
+   margin-top: 3%;
+   text-decoration: none;
+   color: black;
+   font-size: 19px;
+   cursor: pointer;
+   transition: border-bottom 0.2s;
+   
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+#peek:hover{
+   border-bottom: 2px solid black;
+}
+#secu{
+   margin-left: 40%;
+   position: absolute;
+   margin-top: 3%;
+   text-decoration: none;
+   color: black;
+   font-size: 19px;
+   cursor: pointer;
+   transition: border-bottom 0.2s;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#secu:hover{
+   border-bottom: 2px solid black;
+}
+#blog{
+   margin-left: 50%;
+   position: absolute;
+   margin-top: 3%;
+   text-decoration: none;
+   color: black;
+   font-size: 19px;
+   cursor: pointer;
+   transition: border-bottom 0.2s;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#blog:hover{
+  border-bottom: 2px solid black;
+}
+#down{
+   margin-left: 58%;
+   position: absolute;
+   margin-top: 3%;
+   font-size: 19px;
+   text-decoration: none;
+   color: black;
+   cursor: pointer;
+   transition: border-bottom 0.2s;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#down:hover{
+  border-bottom: 2px solid black;
+}
+#about{
+   margin-left: 69%;
+   position: absolute;
+   margin-top: 3%;
+   font-size: 19px;
+   text-decoration: none;
+   color: black;
+   cursor: pointer;
+   transition: border-bottom 0.2s;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#about:hover{
+  border-bottom: 3px solid black;
+}
+#get{
+   margin-left: 76%;
+   position: absolute;
+   margin-top: 1.5%;
+   text-decoration: none;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: rgb(255, 255, 255);
+   padding: 2px;
+   background-color: rgb(225, 84, 32);
+   padding: 22px;
+   border-radius: 60px;
+   padding-left: 80px;
+   padding-right: 80px;
+  
+}
+#offer{
+  position: absolute;
+  top: 55%;
+  animation-name: example;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-direction:alternate;
+  animation: example 5s ;
+}
+@keyframes example {
+  0% {transform: rotate(180deg);}
+  from {top: -50%;}
+  to {top: 300px; }
+}
+#offer2{
+  position: absolute;
+  top: 55%;
+  left: 40%;
+  animation-name: example1;
+  animation-duration: 13s;
+  animation: example1 5s ;
+  animation-fill-mode: forwards;
+  animation-direction:alternate;
+  
+}
+@keyframes example1 {
+  50% {transform: rotate(180deg);}
+  from {top: -50%;}
+  to {top: 300px; }
+}
+#worng{
+  position: absolute;
+ top: 55%;
+ left: 60%;
+  animation-name: example2;
+  animation-duration: 15s;
+  animation-fill-mode: forwards;
+  animation-direction:alternate;
+  animation: example2 5s ;
+  transition: width 2s, height 2s, transform 2s
+ 
+  
+}
+
+@keyframes example2 {
+  50% {transform: rotate(180deg);}
+  from {top: -50%;}
+  to {top: 300px; }
+}
+#offer3{
+  position: absolute;
+  top: 20%;
+ left: 10%; 
+  animation-name: example5;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+  animation-direction:alternate;
+  animation: example 2s ;
+}
+@keyframes example5 {
+  50% {transform: rotate(30deg);}
+  from {top: -50%;}
+  to {top: 300px; }
+}
+#offer4{
+  position: absolute;
+  top: 55%;
+  left: 20%;
+  animation-name: example3;
+  animation-duration: 18s;
+  animation-fill-mode: forwards;
+  animation-direction:alternate;
+  animation: example3 3s ;
+}
+@keyframes example3 {
+  50% {transform: rotate(180deg);}
+  from {top: -50%;}
+  to {top: 300px; }
+}
+
+#offer5{
+  position: absolute;
+  top: 55%;
+  left: 80%;
+  animation-name: example4;
+  animation-duration: 18s;
+  animation-fill-mode: forwards;
+  animation-direction:alternate;
+  animation: example4 7s ;
+}
+@keyframes example4 {
+  50% {transform: rotate(30deg);}
+  from {top: -50%;}
+  to {top: 300px; }
+}
+
+
+#offer6{
+  position: absolute;
+  top: 15%;
+  left: 60%;
+  animation-name: example6;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  animation-direction:alternate, infinite;
+  animation: example6 4s ;
+}
+@keyframes example6 {
+  50% {transform: rotate(180deg);}
+  from {top: -50%;}
+  to {top: 300px; }
+}
+ 
+#secure1{
+  position: absolute;
+  top: 15%;
+  left: 25%;
+  animation-name: example6;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  animation-direction:alternate, infinite;
+  animation: example6 4s ;
+}
+@keyframes example6 {
+  50% {transform: rotate(180deg);}
+  from {top: -50%;}
+  to {top: 300px; }
+}
+ 
+#secure2{
+  position: absolute;
+  top: 20%;
+  left: 80%;
+  animation-name: example6;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  animation-direction:alternate, infinite;
+  animation: example6 4s ;
+}
+@keyframes example6 {
+  50% {transform: rotate(180deg);}
+  from {top: -50%;}
+  to {top: 300px; }
+}
+#uno{
+  left: 4%;
+  position: absolute;
+  transition: transform 0.2s  ease;
+}
+
+#uno:active {
+ transform: rotate(360deg);
+}
+
+
+
+
+
+.app{
+  background-color: rgb(0, 255, 255);
+}
+
+
+
+.header{
+   background-color:rgb(237, 239, 246);
+   width: 100%;
+   height: 18%;
+   position: absolute;
+ left: 0%;
+top: 0%;
+background-color : transparent;
+
+}
+
+#h1{
+   position: absolute;
+   backdrop-filter: blur(100px);
+   margin-top: 25%;
+   margin-left: 30%;
+   padding: 2px;
+   background-color:rgba(255,255,255,0.5);
+   box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+   border: 1px solid rgb(255, 255, 255);
+   padding: 22px;
+   border-radius: 60px;
+   padding-left: 80px;
+   padding-right: 80px;
+   font-family:sans-serif;
+   animation: flashing-style 2s linear ;
+  }
+  
+  @keyframes flashing-style {
+     100% {
+      opacity: 0;
+     }
+  }
+#peek{
+  margin-left: 30%;
+  position: absolute;
+   margin-top: 3%;
+   text-decoration: none;
+   color: black;
+   font-size: 19px;
+   cursor: pointer;
+   transition: border-bottom 0.2s;
+   
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+#peek:hover{
+   border-bottom: 2px solid black;
+}
+#secu{
+   margin-left: 40%;
+   position: absolute;
+   margin-top: 3%;
+   text-decoration: none;
+   color: black;
+   font-size: 19px;
+   cursor: pointer;
+   transition: border-bottom 0.2s;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#secu:hover{
+   border-bottom: 2px solid black;
+}
+#blog{
+   margin-left: 50%;
+   position: absolute;
+   margin-top: 3%;
+   text-decoration: none;
+   color: black;
+   font-size: 19px;
+   cursor: pointer;
+   transition: border-bottom 0.2s;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#blog:hover{
+  border-bottom: 2px solid black;
+}
+#down{
+   margin-left: 58%;
+   position: absolute;
+   margin-top: 3%;
+   font-size: 19px;
+   text-decoration: none;
+   color: black;
+   cursor: pointer;
+   transition: border-bottom 0.2s;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#down:hover{
+  border-bottom: 2px solid black;
+}
+#about{
+   margin-left: 69%;
+   position: absolute;
+   margin-top: 3%;
+   font-size: 19px;
+   text-decoration: none;
+   color: black;
+   cursor: pointer;
+   transition: border-bottom 0.2s;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#about:hover{
+  border-bottom: 3px solid black;
+}
+#get{
+   margin-left: 76%;
+   position: absolute;
+   margin-top: 1.5%;
+   text-decoration: none;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: rgb(255, 255, 255);
+   padding: 2px;
+   background-color: rgb(225, 84, 32);
+   padding: 22px;
+   border-radius: 60px;
+   padding-left: 80px;
+   padding-right: 80px;
+  
+}
+#offer{
+  position: absolute;
+  top: 55%;
+  animation-name: example;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-direction:alternate;
+  animation: example 5s ;
+}
+@keyframes example {
+  0% {transform: rotate(180deg);}
+  from {top: -50%;}
+  to {top: 300px; }
+}
+#offer2{
+  position: absolute;
+  top: 55%;
+  left: 40%;
+  animation-name: example1;
+  animation-duration: 13s;
+  animation: example1 5s ;
+  animation-fill-mode: forwards;
+  animation-direction:alternate;
+  
+}
+@keyframes example1 {
+  50% {transform: rotate(180deg);}
+  from {top: -50%;}
+  to {top: 300px; }
+}
+#worng{
+  position: absolute;
+ top: 55%;
+ left: 60%;
+  animation-name: example2;
+  animation-duration: 15s;
+  animation-fill-mode: forwards;
+  animation-direction:alternate;
+  animation: example2 5s ;
+  transition: width 2s, height 2s, transform 2s
+ 
+  
+}
+
+@keyframes example2 {
+  50% {transform: rotate(180deg);}
+  from {top: -50%;}
+  to {top: 300px; }
+}
+#offer3{
+  position: absolute;
+  top: 20%;
+ left: 10%; 
+  animation-name: example5;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+  animation-direction:alternate;
+  animation: example 2s ;
+}
+@keyframes example5 {
+  50% {transform: rotate(30deg);}
+  from {top: -50%;}
+  to {top: 300px; }
+}
+#offer4{
+  position: absolute;
+  top: 55%;
+  left: 20%;
+  animation-name: example3;
+  animation-duration: 18s;
+  animation-fill-mode: forwards;
+  animation-direction:alternate;
+  animation: example3 3s ;
+}
+@keyframes example3 {
+  50% {transform: rotate(180deg);}
+  from {top: -50%;}
+  to {top: 300px; }
+}
+
+#offer5{
+  position: absolute;
+  top: 55%;
+  left: 80%;
+  animation-name: example4;
+  animation-duration: 18s;
+  animation-fill-mode: forwards;
+  animation-direction:alternate;
+  animation: example4 7s ;
+}
+@keyframes example4 {
+  50% {transform: rotate(30deg);}
+  from {top: -50%;}
+  to {top: 300px; }
+}
+
+
+#offer6{
+  position: absolute;
+  top: 15%;
+  left: 60%;
+  animation-name: example6;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-direction:alternate, infinite;
+  animation: example6 4s ;
+}
+@keyframes example6 {
+  50% {transform: rotate(180deg);}
+  from {top: -50%;}
+  to {top: 300px; }
+}
+ 
+#secure1{
+  position: absolute;
+  top: 15%;
+  left: 25%;
+  animation-name: example6;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-direction:alternate, infinite;
+  animation: example6 4s ;
+}
+@keyframes example6 {
+  50% {transform: rotate(180deg);}
+  from {top: -50%;}
+  to {top: 300px; }
+}
+ 
+#secure2{
+  position: absolute;
+  top: 20%;
+  left: 80%;
+  animation-name: example6;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-direction:alternate, infinite;
+  animation: example6 4s ;
+}
+@keyframes example6 {
+  50% {transform: rotate(180deg);}
+  from {top: -50%;}
+  to {top: 300px; }
+}
+#uno{
+  left: 4%;
+  position: absolute;
+  transition: transform 0.2s  ease;
+}
+
+#uno:active {
+ transform: rotate(360deg);
+}
